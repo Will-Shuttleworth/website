@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Shuttleworth</title>
+    <meta name="title" content="Will">
+    <meta name="description" content="An aspiring fullstack developer">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Will">
+    <meta property="og:site_name" content="Will">
+    <meta property="og:description" content="An aspiring fullstack developer">
+    <link rel="canonical" href="https://will-shuttleworth.github.io/website/">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+        body {
+          margin: 0;
+          font-family: "Merriweather", Georgia, serif;
+          font-weight: 300;
+          background: #000000;
+          color: #ffffff;
+        }
+        ::selection {
+          background-color: #00ff00;
+          color: #000000;
+        }
+        #bg {
+          display: grid;
+          justify-items: center;
+          align-items: center;
+          height: 100vh;
+          width: 100vw;
+        }
+        .wrapper {
+          max-width: 700px;
+          padding: 3rem;
+        }
+        .one-liner {
+          margin-top: 2rem;
+          margin-bottom: 0;
+        }
+        .one-liner:first-of-type {
+          margin-top: 0;
+        }
+        .hero {
+          font-weight: 700;
+          margin-top: 0;
+        }
+        .list-entry {
+          font-family: "M PLUS 1 Code", monospace;
+          font-size: 0.875rem;
+        }
+        .list-pointer {
+          opacity: 0.5;
+        }
+        a {
+          color: #CCB806;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      </style>
+    </head>
+
+    <body>
+        <div id="bg" style="position: relative;"><span style="position: relative; z-index: 1;">
+        </span><div class="wrapper" style="position: relative; z-index: 1;">
+        <h1 class="hero">Hi, I'm Will.</h1>
+        <p class="one-liner">An aspiring fullstack developer. You can find me here —</p>
+        <p class="list-entry">
+        <span class="list-pointer">&gt;</span>
+        <span>github:
+        <a href="https://github.com/Will-Shuttleworth" aria-label="Github" target="_blank">Will-Shuttleworth</a>
+        </span>
+        </p>
+        <p class="list-entry">
+        <span class="list-pointer">&gt;</span>
+        <span>email:
+        <a href="mailto:willshuttleworth99@gmail.com" aria-label="Email">willshuttleworth99@gmail.com</a>
+        </span>
+        </p>
+        <p class="one-liner">Some projects that I'm working on —</p>
+        <p class="list-entry">
+        <span class="list-pointer">&gt;</span>
+        <a href="https://will-shuttleworth.github.io/website/" aria-label="website" target="_blank">this website</a>
+        </span>
+        </p>
+        <p class="list-entry">
+        <span class="list-pointer">&gt;</span>
+        <span>more to come soon
+        </span>
+        </p>
+        </div><span style="position: relative; z-index: 1;">
+        </span><canvas class="vanta-canvas" style="position: absolute; z-index: 0; top: 0px; left: 0px; width: 1920px; height: 937px;" width="1920" height="937"></canvas></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+        <script>
+            VANTA.GLOBE({
+                el: "#bg",
+                mouseControls: false,
+                touchControls: false,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x7341eb,
+                color2: 0xCCB806,
+                size: 0.55,
+                backgroundColor: 0x353148
+            })
+          </script>
+        
+        </body>
