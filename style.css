@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: "Inconsolata", Georgia, serif;
+    font-weight: 300;
+    background: #000000;
+    color: #ffffff;
+}
+::selection {
+    background-color: #00ff00;
+    color: #000000;
+}
+#bg {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper {
+    max-width: 700px;
+    padding: 3rem;
+}
+.one-liner {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.one-liner:first-of-type {
+    margin-top: 0;
+}
+.hero {
+    font-weight: 700;
+    margin-top: 0;
+}
+.list-entry {
+    font-family: "M PLUS 1 Code", monospace;
+    font-size: 0.875rem;
+}
+.list-pointer {
+    opacity: 0.5;
+}
+a {
+    color: #CCB806;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
